@@ -27,11 +27,11 @@ let package = Package(
             name: "SVProgressHUD",
             dependencies: [],
             path: "SVProgressHUD",
-            publicHeadersPath: "include",
             resources: [
                 .process("SVProgressHUD.bundle"),
                 .copy("SVProgressHUD-Prefix.pch")
-            ]
+            ],
+            publicHeadersPath: "include"
         )
     ]
 )
