@@ -26,8 +26,8 @@ let package = Package(
         .target(
             name: "SVProgressHUD",
             dependencies: [],
-            publicHeadersPath: "include",
             path: "SVProgressHUD",
+            publicHeadersPath: "include",
             resources: [
                 .process("SVProgressHUD.bundle"),
                 .copy("SVProgressHUD-Prefix.pch")
