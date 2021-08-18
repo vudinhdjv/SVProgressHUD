@@ -30,8 +30,7 @@ let package = Package(
             resources: [
                 .process("SVProgressHUD.bundle"),
                 .copy("SVProgressHUD-Prefix.pch")
-            ],
-            publicHeadersPath: "include"
+            ]
         )
     ]
 )
